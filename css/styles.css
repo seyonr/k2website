@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Gruppo", sans-serif;
+    scroll-behavior: smooth;
 }
 /* ---------------------------------------------- */
 /* Header */
@@ -31,18 +32,25 @@ i{
 .nav_links li{
     display: inline-block;
     padding: 0px 20px;
-}
-
-.nav_links li a{
     transition: all 0.3s ease 0s;
     text-decoration: none;
     color: inherit;
     font-size: 22px;
     font-weight: bold;
     font-style: normal;
+    cursor: pointer;
 }
 
-.nav_links li a:hover{
+/* .nav_links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: inherit;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+} */
+
+.nav_links li:hover{
     color: #AEAEAE;
 }
 
@@ -55,12 +63,21 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    font-size: 20px;
 }
 
 button:hover{
     background-color: #5D5D5D;
     padding: 12px 30px;
 }
+
+/* Ask if he wants to allow the moving of other elements or not */
+/* .button-div{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 200px;
+} */
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
 /* Starter Page */
@@ -142,11 +159,12 @@ button:hover{
 }
 
 .services h1{
-    font-family: "Parisienne", cursive;
+    font-family: "Bebas Neue", sans-serif;
     display: flex;
     justify-content: center;
     padding: 20px;
     font-size: 50px;
+    letter-spacing: 10px;
 }
 
 .h2-sizer{
@@ -155,7 +173,7 @@ button:hover{
 }
 
 .h2-sizer h2{
-    font-family: "Bebas Neue", sans-serif;
+    /* font-family: "Bebas Neue", sans-serif; */
     text-align: center;
     font-weight: 500;
     padding: 5px;
@@ -171,11 +189,10 @@ button:hover{
     align-items: center;
     padding: 5px;
     cursor: pointer;
-    /* transition: all 0.1s ease-in-out 0.1s; */
+    transition: all 0.4s ease-in-out;
 }
 
 #serv-gd h2{
-    font-family: "Bebas Neue", sans-serif;
     font-size: 30px;
     padding: 20px;
     font-size: 50px;
@@ -184,7 +201,6 @@ button:hover{
 }
 
 #serv-vp h2{
-    font-family: "Bebas Neue", sans-serif;
     font-size: 30px;
     padding: 20px;
     font-size: 50px;
@@ -193,7 +209,6 @@ button:hover{
 }
 
 #serv-p h2{
-    font-family: "Bebas Neue", sans-serif;
     font-size: 50px;
     padding: 20px;
     letter-spacing: 6px;
@@ -205,6 +220,9 @@ button:hover{
     text-align: center;
     transition: all ease-in-out;
     font-size: 20px;
+
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out; 
 }
 
 #serv-gd ul li{
@@ -216,6 +234,9 @@ button:hover{
     text-align: center;
     transition: all ease-in-out;
     font-size: 20px;
+
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out; 
 }
 
 #serv-vp ul li{
@@ -227,6 +248,9 @@ button:hover{
     text-align: center;
     transition: all ease-in-out;
     font-size: 20px; 
+
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out; 
 }
 
 #serv-p ul li{
@@ -240,4 +264,55 @@ button:hover{
 /* ---------------------------------------------- */
 .shop{
     background-color: black;
+    color: white;
+}
+
+.shop h1{
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.h2-sizer-shop{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.h2-sizer-shop h2{
+    /* font-family: "Bebas Neue", sans-serif; */
+    text-align: center;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.shop-img-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    color: black;
+    padding: 30px;
+    justify-items: center; 
+    align-items: center; 
+}
+
+.shop-img {
+    cursor: pointer;
+    background-color: white;
+    height: 25rem;
+    width: 25rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.shop-img img {
+    width: 600px;
+}
+
+.shop-img-hover{
+    display: none;
 }
