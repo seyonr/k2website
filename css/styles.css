@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Gruppo", sans-serif;
+}
+/* ---------------------------------------------- */
+/* Header */
+header img{
+    /* width: 200px; */
+    width: 15%;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+i{
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: inherit;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.nav_links li a:hover{
+    color: #AEAEAE;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #5D5D5D;
+    padding: 12px 30px;
+}
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* Starter Page */
+.starter-page{
+    /* 70vh */
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-image: url('bg.jpg');
+    background-size: cover; 
+    background-position: center;
+    opacity: 1;
+}
+
+.starter-page h1{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1100%;
+    font-weight: 100;
+}
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* About Section */
+.about{
+    /* 50vh */
+    height: 600px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+}
+
+.about-p{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.about-p h1{
+    padding: 7px;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+.about-p p{
+    padding: 7px;
+    color: white;
+    font-size: 20px;
+}
+
+.about-img{
+    /* padding: 5%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img img{
+    width: 55%;
+}
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* Services */
+.services{
+    background-color: white;
+    /* 100vh */
+    height: 750px;
+    padding: 50px;
+}
+
+.services-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1%;
+    gap: 2%;
+}
+
+.services h1{
+    font-family: "Parisienne", cursive;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.h2-sizer{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.h2-sizer h2{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.services-parent > div{
+    background-color: black;
+    color: white;
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    /* transition: all 0.1s ease-in-out 0.1s; */
+}
+
+#serv-gd h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 100;
+}
+
+#serv-vp h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 100;
+}
+
+#serv-p h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    padding: 20px;
+    letter-spacing: 6px;
+    font-weight: 100;
+}
+
+#serv-gd ul{
+    list-style: none;
+    text-align: center;
+    transition: all ease-in-out;
+    font-size: 20px;
+}
+
+#serv-gd ul li{
+    padding: 2px;
+}
+
+#serv-vp ul{
+    list-style: none;
+    text-align: center;
+    transition: all ease-in-out;
+    font-size: 20px;
+}
+
+#serv-vp ul li{
+    padding: 2px;
+}
+
+#serv-p ul{
+    list-style: none;
+    text-align: center;
+    transition: all ease-in-out;
+    font-size: 20px; 
+}
+
+#serv-p ul li{
+    padding: 2px;
+}
+
+.services ul {
+    display: none;
+}
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+.shop{
+    background-color: black;
+}
