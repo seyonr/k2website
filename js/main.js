@@ -12,6 +12,11 @@ function shopScroll(){
     const shop_scroll = document.querySelector(".shop");
     shop_scroll.scrollIntoView({ behavior: 'smooth' });
 }
+
+function portScroll(){
+    const port_scroll = document.querySelector(".portfolio");
+    port_scroll.scrollIntoView({ behavior: 'smooth' });
+}
 // ----------------------------------------------------
 // ----------------------------------------------------
 // ----------------------------------------------------
