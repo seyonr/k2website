@@ -395,10 +395,16 @@ button:hover{
 
 .dime-img img{
     width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.dime-img img:hover{
+    opacity: 0.4;
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
-.portfolio-pictures{
+/* .portfolio-pictures{
     display: flex;
     justify-content: center;
 }
@@ -414,7 +420,7 @@ button:hover{
     background-color: aquamarine;
     width: 400px;
     height: 400px;
-}
+} */
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
 .portfolio-pictures-1{
@@ -427,15 +433,28 @@ button:hover{
 
 .port-pic-1-img img{
     width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.port-pic-1-img img:hover{
+    opacity: 0.4;
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
 .nav-img{
     background-color: black;
+    cursor: pointer;
 }
 
 .nav-img img{
     width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-img img:hover{
+    opacity: 0.4;
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
@@ -449,6 +468,12 @@ button:hover{
 
 .port-pic-2-img img{
     width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.port-pic-2-img img:hover{
+    opacity: 0.4;
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
@@ -462,6 +487,12 @@ button:hover{
 
 .port-pic-3-img img{
     width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.port-pic-3-img img:hover{
+    opacity: 0.4;
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
@@ -476,4 +507,10 @@ button:hover{
 
 .port-pic-4-img img{
     width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.port-pic-4-img img:hover{
+    opacity: 0.4;
 }
