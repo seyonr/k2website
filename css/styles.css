@@ -97,7 +97,8 @@ button:hover{
 .starter-page h1{
     color: white;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 1100%;
+    /* font-size: 1100%; */
+    font-size: 10vw;
     font-weight: 100;
 }
 /* ---------------------------------------------- */
@@ -124,11 +125,12 @@ button:hover{
     padding: 7px;
     color: white;
     font-family: "Bebas Neue", sans-serif;
+    font-size: 1.9vw;
 }
 .about-p p{
     padding: 7px;
     color: white;
-    font-size: 20px;
+    font-size: 1.1vw;
 }
 
 .about-img{
@@ -139,7 +141,8 @@ button:hover{
 }
 
 .about-img img{
-    width: 55%;
+    /* width: 55%; */
+    width: 25vw;
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
@@ -147,7 +150,7 @@ button:hover{
 .services{
     background-color: white;
     /* 100vh */
-    height: 750px;
+    height: 100%;
     padding: 50px;
 }
 
@@ -163,7 +166,7 @@ button:hover{
     display: flex;
     justify-content: center;
     padding: 20px;
-    font-size: 50px;
+    font-size: 2.8vw;
     letter-spacing: 10px;
 }
 
@@ -173,16 +176,16 @@ button:hover{
 }
 
 .h2-sizer h2{
-    /* font-family: "Bebas Neue", sans-serif; */
     text-align: center;
     font-weight: 500;
     padding: 5px;
+    font-size: 1.3vw;
 }
 
 .services-parent > div{
     background-color: black;
     color: white;
-    height: 26rem;
+    /* height: 26rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,23 +196,23 @@ button:hover{
 }
 
 #serv-gd h2{
-    font-size: 30px;
+    font-size: 3vw;
     padding: 20px;
-    font-size: 50px;
+    /* font-size: 50px; */
     letter-spacing: 6px;
     font-weight: 100;
 }
 
 #serv-vp h2{
-    font-size: 30px;
+    font-size: 3vw;
     padding: 20px;
-    font-size: 50px;
+    /* font-size: 50px; */
     letter-spacing: 6px;
     font-weight: 100;
 }
 
 #serv-p h2{
-    font-size: 50px;
+    font-size: 3vw;
     padding: 20px;
     letter-spacing: 6px;
     font-weight: 100;
@@ -219,7 +222,8 @@ button:hover{
     list-style: none;
     text-align: center;
     transition: all ease-in-out;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.3vw;
 
     opacity: 0; 
     transition: opacity 0.2s ease-in-out; 
@@ -233,7 +237,8 @@ button:hover{
     list-style: none;
     text-align: center;
     transition: all ease-in-out;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.3vw;
 
     opacity: 0; 
     transition: opacity 0.2s ease-in-out; 
@@ -247,7 +252,8 @@ button:hover{
     list-style: none;
     text-align: center;
     transition: all ease-in-out;
-    font-size: 20px; 
+    /* font-size: 20px;  */
+    font-size: 1.3vw;
 
     opacity: 0; 
     transition: opacity 0.2s ease-in-out; 
@@ -265,15 +271,16 @@ button:hover{
 .shop{
     background-color: black;
     color: white;
+    height: 100%;
 }
 
 .shop h1{
-    font-family: "Bebas Neue", sans-serif;
+    /* font-family: "Bebas Neue", sans-serif; */
     display: flex;
     justify-content: center;
     padding: 20px;
-    font-size: 50px;
-    letter-spacing: 10px;
+    font-size: 3vw;
+    letter-spacing: 6px;
 }
 
 .h2-sizer-shop{
@@ -282,7 +289,7 @@ button:hover{
 }
 
 .h2-sizer-shop h2{
-    /* font-family: "Bebas Neue", sans-serif; */
+    font-size: 1.3vw;
     text-align: center;
     font-weight: 500;
     padding: 5px;
@@ -290,11 +297,10 @@ button:hover{
 
 .shop-img-parent{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 30px;
-    color: black;
-    padding: 30px;
+    padding: 50px;
     justify-items: center; 
     align-items: center; 
 }
@@ -302,17 +308,23 @@ button:hover{
 .shop-img {
     cursor: pointer;
     background-color: white;
-    height: 25rem;
-    width: 25rem;
+    /* height: 25rem; */
+    /* width: 25rem; */
+    /* height: 40vh;
+    width: 40vh; */
     display: flex; 
     justify-content: center; 
     align-items: center;
+    border-radius: 20px;
 }
 
 .shop-img img {
-    width: 600px;
+    /* width: 550px; */
+    width: 100%;
 }
 
 .shop-img-hover{
     display: none;
 }
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
