@@ -41,15 +41,6 @@ i{
     cursor: pointer;
 }
 
-/* .nav_links li a{
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    color: inherit;
-    font-size: 22px;
-    font-weight: bold;
-    font-style: normal;
-} */
-
 .nav_links li:hover{
     color: #AEAEAE;
 }
@@ -70,14 +61,6 @@ button:hover{
     background-color: #5D5D5D;
     padding: 12px 30px;
 }
-
-/* Ask if he wants to allow the moving of other elements or not */
-/* .button-div{
-    display: flex;
-    justify-content: center;
-    background-color: aquamarine;
-    width: 200px;
-} */
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
 /* Starter Page */
@@ -106,11 +89,11 @@ button:hover{
 /* About Section */
 .about{
     /* 50vh */
-    height: 600px;
+    height: 100%;
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 50px;
+    padding: 7vw;
 }
 
 .about-p{
@@ -127,6 +110,7 @@ button:hover{
     color: white;
     font-size: 1.9vw;
 }
+
 .about-p p{
     padding: 7px;
     color: white;
@@ -269,6 +253,7 @@ button:hover{
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
+/* Shop */
 .shop{
     background-color: black;
     color: white;
@@ -336,6 +321,7 @@ button:hover{
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
+/* Portfolio Intro */
 .portfolio{
     height: 100%;
     background-image: url('port-bg.jpg');
@@ -389,6 +375,7 @@ button:hover{
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
+/* Mathura Image */
 .dime-img{
     background-color: black;
 }
@@ -404,25 +391,7 @@ button:hover{
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
-/* .portfolio-pictures{
-    display: flex;
-    justify-content: center;
-}
-
-.port-pictures-parent{
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(12,1fr);
-}
-
-.port-pic{
-    background-color: aquamarine;
-    width: 400px;
-    height: 400px;
-} */
-/* ---------------------------------------------- */
-/* ---------------------------------------------- */
+/* First Row */
 .portfolio-pictures-1{
     background-color: black;
 }
@@ -442,6 +411,7 @@ button:hover{
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
+/* Naveenan Image */
 .nav-img{
     background-color: black;
     cursor: pointer;
@@ -458,6 +428,7 @@ button:hover{
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
+/* Row 2 */
 .portfolio-pictures-2{
     background-color: black;
 }
@@ -477,6 +448,7 @@ button:hover{
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
+/* Row 3 */
 .portfolio-pictures-3{
     background-color: black;
 }
@@ -496,6 +468,7 @@ button:hover{
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
+/* Row 4 */
 .portfolio-pictures-4{
     background-color: black;
     color: white;
@@ -513,4 +486,228 @@ button:hover{
 
 .port-pic-4-img img:hover{
     opacity: 0.4;
+}
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* Reactive code */
+@media screen and (max-width: 1100px){
+    /* Header */
+    .nav_links li{
+        padding: 0px 20px;
+        font-size: 20px;
+    }
+
+    button{
+        padding: 7px 20px;
+        border-radius: 50px;
+        font-size: 17px;
+    }
+
+    /* About */
+    .about{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 7vw;
+        text-align: center;
+    }
+
+    /* Services */
+    .h2-sizer h2{
+        font-size: 1.5vw;
+    }
+
+    .services-parent > div{
+        height: 20rem;
+        padding: 5px;
+    }
+
+    /* Shop */
+    .h2-sizer-shop h2{
+        font-size: 1.5vw;
+        padding: 5px;
+    }
+
+    /* Portfolio */
+    .h2-sizer-port h2{
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 780px){
+    /* Header */
+    .nav_links li{
+        padding: 0px 13px;
+        font-size: 17px;
+    }
+
+    button{
+        padding: 7px 15px;
+        border-radius: 50px;
+        font-size: 15px;
+    }
+
+    /* About */
+    .about-p h1{
+        font-size: 5vw;
+    }
+
+    .about-p p{
+        padding: 7px;
+        color: white;
+        font-size: 2.7vw;
+    }
+
+    .about-img img{
+        /* width: 55%; */
+        width: 45vw;
+    }
+
+    /* Service */
+    .services h1{
+        font-size: 5vw;
+    }
+
+    .h2-sizer h2{
+        font-size: 2.9vw;
+    }
+
+    .services-parent{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    #serv-gd ul{
+        font-size: 2.8vw;
+    }
+
+    #serv-vp ul{
+        font-size: 2.8vw;
+    }
+
+    #serv-p ul{
+        font-size: 2.8vw;
+    }
+
+    /* Shop */
+    .shop h1{
+        font-size: 5vw;
+    }
+    
+    .h2-sizer-shop h2{
+        font-size: 2.9vw;
+    }
+
+    /* Portfolio Intro */
+    .portfolio h1{
+        font-size: 5vw;
+    }
+    
+    .h2-sizer-port h2{
+        font-size: 2.9vw;
+    }
+
+    .port-button{
+        font-size: 2.2vw;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .nav_links li{
+        display: none;
+    }
+
+    .shop h1{
+        font-size: 4.5vw;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    /* Header */
+    header img{
+        /* width: 200px; */
+        width: 50%;
+        cursor: pointer;
+    }
+
+    /* About */
+    .about-p h1{
+        font-size: 8vw;
+    }
+
+    .about-p p{
+        font-size: 4vw;
+    }
+
+    .about-img img{
+        /* width: 55%; */
+        width: 80vw;
+    }
+
+    /* Services */
+    .services h1{
+        font-size: 8vw;
+    }
+
+    .h2-sizer h2{
+        font-size: 4vw;
+    }
+
+    .services-parent > div{
+        height: 15rem;
+        padding: 5px;
+    }
+
+    #serv-gd h2{
+        font-size: 5vw;
+    }
+
+    #serv-vp h2{
+        font-size: 5vw;
+    }
+
+    #serv-p h2{
+        font-size: 5vw;
+    }
+
+    #serv-gd ul{
+        font-size: 4vw;
+    }
+
+    #serv-vp ul{
+        font-size: 4vw;
+    }
+
+    #serv-p ul{
+        font-size: 4vw;
+    }
+
+    /* Shop */
+    .shop h1{
+        font-size: 8vw;
+        text-align: center;
+    }
+    
+    .h2-sizer-shop h2{
+        font-size: 4vw;
+
+    }
+
+    /* Portfolio */
+    .portfolio h1{
+        font-size: 8vw;
+        text-align: center;
+    }
+    
+    .h2-sizer-port h2{
+        font-size: 4vw;
+    }
+
+    .port-button{
+        font-size: 3vw;
+    }
+
+
 }
