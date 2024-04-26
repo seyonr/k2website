@@ -45,6 +45,16 @@ i{
     color: #AEAEAE;
 }
 
+.nav_links li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #AEAEAE;   
+}
+
 button{
     padding: 9px 25px;
     background-color: black;
@@ -135,7 +145,7 @@ button:hover{
     background-color: white;
     /* 100vh */
     height: 100%;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 .services-parent{
@@ -489,6 +499,23 @@ button:hover{
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
+.footer{
+    background-color: black;
+    padding: 2vw;
+}
+
+.footer i{
+    color: white;
+    padding: 1vw;
+    font-size: 2vw;
+}
+
+.footer-icon-div{
+    display: flex;
+    justify-content: center;
+}
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
 /* Reactive code */
@@ -707,7 +734,5 @@ button:hover{
 
     .port-button{
         font-size: 3vw;
-    }
-
-
+    }   
 }

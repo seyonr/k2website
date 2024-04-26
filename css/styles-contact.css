@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Gruppo", sans-serif;
+    scroll-behavior: smooth;
+}
+/* ---------------------------------------------- */
+/* Header */
+header img{
+    /* width: 200px; */
+    width: 15%;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+i{
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: inherit;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 9px 25px;
+    border-radius: 50px;
+}
+
+.nav_links li:hover{
+    background-color: #5D5D5D;
+}
+
+.nav_links li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+button:hover{
+    background-color: #5D5D5D;
+    padding: 12px 30px;
+}
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* Contact Page */
+.contact-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form{
+    background-color: black;
+    color: white;
+    padding: 5vw;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-div{
+    padding: 2vw;
+    text-align: center;
+}
+
+.h1-div h1{
+    font-size: 4vw;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.input-div{
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-inputs{
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.4vw;
+}
+
+.contact-inputs-big{
+    padding: 50px;
+    text-align: center;
+    text-wrap: wrap;
+    border-radius: 50px;
+    font-size: 1.4vw;
+}
+
+.button-div-2{
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.button-div-2 button{
+    background-color: white;
+    color: black;
+    font-size: 1.7vw;
+}
+
+.button-div-2 button:hover{
+    background-color: #AEAEAE;
+    font-size: 1.7vw;
+}
+
+
