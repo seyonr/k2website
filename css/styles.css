@@ -540,10 +540,24 @@ button:hover{
         text-align: center;
     }
 
-    /* Services */
-    .h2-sizer h2{
-        font-size: 1.5vw;
+    .about-p h1{
+        font-size: 2.7vw;
     }
+
+    .about-p p{
+        font-size: 1.6vw;
+    }
+
+    /* Services */
+    .services h1{
+        font-size: 2.7vw;
+    }
+
+    .h2-sizer h2{
+        font-size: 1.9vw;
+    }
+
+
 
     .services-parent > div{
         height: 20rem;
@@ -552,13 +566,13 @@ button:hover{
 
     /* Shop */
     .h2-sizer-shop h2{
-        font-size: 1.5vw;
+        font-size: 1.9vw;
         padding: 5px;
     }
 
     /* Portfolio */
     .h2-sizer-port h2{
-        font-size: 1.5vw;
+        font-size: 1.9vw;
     }
 }
 
@@ -592,6 +606,9 @@ button:hover{
     }
 
     /* Service */
+    .services{
+        height: 1200px;
+    }
     .services h1{
         font-size: 5vw;
     }
@@ -648,7 +665,6 @@ button:hover{
     .shop h1{
         font-size: 4.5vw;
     }
-
 }
 
 @media screen and (max-width: 480px){
@@ -674,6 +690,10 @@ button:hover{
     }
 
     /* Services */
+    .services{
+        height: 750px;
+    }
+
     .services h1{
         font-size: 8vw;
     }
@@ -683,8 +703,7 @@ button:hover{
     }
 
     .services-parent > div{
-        height: 15rem;
-        padding: 5px;
+        height: 11rem;
     }
 
     #serv-gd h2{
