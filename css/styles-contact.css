@@ -199,10 +199,6 @@ button:hover{
 }
 
 @media screen and (max-width: 480px){
-    /* *{
-        background-color: aquamarine;
-    } */
-
     .contact-form{
         padding: 4vw;                
     }
